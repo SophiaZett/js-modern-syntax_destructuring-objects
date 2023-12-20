@@ -48,3 +48,5 @@ const person = {
   age: 24,
   firstName: "Alex",
 };
+
+export const { lastName: personLastName, ...moreInformation } = person;
