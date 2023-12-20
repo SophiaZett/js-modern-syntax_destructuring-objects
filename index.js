@@ -10,6 +10,8 @@ const company = {
   location: "Hamburg",
 };
 
+export const { course } = company;
+
 // example: export const {value1} = myObject;
 
 // EXERCISE 2
